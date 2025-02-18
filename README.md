@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# Ferramento de auxílio à redação de textos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o desafio
 
-Currently, two official plugins are available:
+- Desafio técnico para demonstrar habilidade em criar componentes de acordo com especificações de um design e de funcionalidades, para que a aplicação possa ser interativa com o usuário e responsiva para rodar em qualquer dispositivo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
+  * React (Vite)
+  * Typescript
+  * CSS
 
-## Expanding the ESLint configuration
+## Instalação e incialização do projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Depois de ter clonado o projeto, abra o terminal e navegue ate a pasta do proejto
 
-- Configure the top-level `parserOptions` property like this:
+```
+cd text-writing
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Instale as dependências do projeto
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+npm install
+
+```
+
+- Rode o aplicação
+
+```
+npm run dev
+
+```
+Abra o projeto no seu navehgador
